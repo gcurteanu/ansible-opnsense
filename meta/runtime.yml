@@ -140,6 +140,8 @@ action_groups:
     - ansibleguy.opnsense.dhcp_controlagent
     - ansibleguy.opnsense.dhcp_general
     - ansibleguy.opnsense.dhcp_subnet
+  dnsmasq:
+    - ansibleguy.opnsense.dnsmasq_host
   acme:
     - ansibleguy.opnsense.acme_general
     - ansibleguy.opnsense.acme_account
@@ -184,6 +186,7 @@ action_groups:
           - ansibleguy.opnsense.openvpn
           - ansibleguy.opnsense.dhcrelay
           - ansibleguy.opnsense.dhcp
+          - ansibleguy.opnsense.dnsmasq
           - ansibleguy.opnsense.acme
           - ansibleguy.opnsense.postfix
           - ansibleguy.opnsense.hasync

@@ -68,6 +68,7 @@ SERVICES = {
     'udp_broadcast_relay': {'c': 'udpbroadcastrelay'},
     'clamav': {}, 'hwprobe': {}, 'lldpd': {}, 'nginx': {}, 'ntopng': {}, 'postfix': {}, 'redis': {},
     'relayd': {}, 'siproxd': {}, 'vnstat': {}, 'tor': {},
+    'dnsmasq': {'a': ['reload']},
 }
 
 ACTION_MAPPING = {'reload': 'reconfigure'}
